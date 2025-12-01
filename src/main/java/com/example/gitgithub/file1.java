@@ -2,6 +2,13 @@ package com.example.gitgithub;
 
 public class file1 {
     private String message = "Hello, GitHub!";
+    public String getMessage() {
+        return message;
+    }
+    
+}
+public class file1 {
+    private String message = "Hello, GitHub!";
     private String author = "Mohamed Yassine Derbel";
 
     public String getMessage() {

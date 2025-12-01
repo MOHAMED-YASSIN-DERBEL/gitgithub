@@ -30,8 +30,7 @@ Cette formation vous guide **étape par étape** dans l'utilisation de Git et Gi
 7. [Exercice 6 : Hotfix sur Main](#exercice-6--hotfix-sur-main)
 8. [Exercice 7 : Annuler des Modifications](#exercice-7--annuler-des-modifications)
 9. [Exercice 8 : Utiliser Stash](#exercice-8--utiliser-stash)
-10. [Exercice 9 : Tags et Releases](#exercice-9--tags-et-releases)
-11. [Récapitulatif des Commandes](#récapitulatif-des-commandes)
+10. [Récapitulatif des Commandes](#récapitulatif-des-commandes)
 
 ---
 
@@ -990,98 +989,7 @@ git push origin --delete feature-order
 
 ---
 
-## Exercice 9 : Tags et Releases
 
-### 🎯 Objectif
-Créer des versions de votre application avec des tags.
-
-### 📝 Étapes
-
-**1. Créer un tag léger**
-
-```powershell
-# S'assurer d'être sur main
-git checkout main
-
-# Créer un tag
-git tag v1.0.0
-
-# Voir les tags
-git tag
-```
-
-**2. Créer un tag annoté (recommandé)**
-
-```powershell
-# Tag avec message
-git tag -a v1.1.0 -m "Version 1.1.0 - Ajout User, Product, Order"
-
-# Voir les détails d'un tag
-git show v1.1.0
-```
-
-**3. Push des tags**
-
-```powershell
-# Push un tag spécifique
-git push origin v1.1.0
-
-# Ou push tous les tags
-git push --tags
-```
-
-**4. Créer une Release sur GitHub**
-
-1. Aller sur GitHub → Votre repo
-2. Releases → Create a new release
-3. Choisir le tag `v1.1.0`
-4. Titre : "Version 1.1.0"
-5. Description :
-```
-## Nouveautés
-- Ajout de la classe User
-- Ajout de la classe Product
-- Ajout de la classe Order
-- Amélioration de la gestion des erreurs
-
-## Corrections
-- Fix vérifications null
-- Fix gestion exceptions
-```
-6. Publish release
-
-**5. Tag pour différents environnements**
-
-```powershell
-# Tag pour développement
-git tag -a v1.2.0-beta -m "Version beta 1.2.0"
-
-# Tag pour production
-git tag -a v1.2.0 -m "Version stable 1.2.0"
-
-# Tag avec commit spécifique
-git tag -a v1.0.1 abc1234 -m "Hotfix 1.0.1"
-
-# Push
-git push origin --tags
-```
-
-**6. Supprimer un tag (si erreur)**
-
-```powershell
-# Supprimer localement
-git tag -d v1.0.0
-
-# Supprimer sur GitHub
-git push origin --delete v1.0.0
-```
-
-**✅ Résultat attendu :**
-- Tags créés pour versioning
-- Release publiée sur GitHub
-- Bonne pratique de versioning établie
-
----
 
 ## Récapitulatif des Commandes
 
@@ -1448,7 +1356,6 @@ Vous avez maintenant parcouru **tous les cas pratiques essentiels** de Git et Gi
 ✅ Annulation de modifications  
 ✅ Utilisation du stash  
 ✅ Versioning avec tags  
-
 
 
 ---
