@@ -30,8 +30,7 @@ Cette formation vous guide **étape par étape** dans l'utilisation de Git et Gi
 7. [Exercice 6 : Hotfix sur Main](#exercice-6--hotfix-sur-main)
 8. [Exercice 7 : Annuler des Modifications](#exercice-7--annuler-des-modifications)
 9. [Exercice 8 : Utiliser Stash](#exercice-8--utiliser-stash)
-10. [Exercice 9 : Tags et Releases](#exercice-9--tags-et-releases)
-11. [Récapitulatif des Commandes](#récapitulatif-des-commandes)
+10. [Récapitulatif des Commandes](#récapitulatif-des-commandes)
 
 ---
 
