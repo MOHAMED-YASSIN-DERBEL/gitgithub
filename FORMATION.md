@@ -462,7 +462,6 @@ Créer volontairement un conflit et le résoudre.
 ### 📝 Étapes
 
 **1. Modifier file1.java sur main**
-
 ```powershell
 # S'assurer d'être sur main
 git checkout main
